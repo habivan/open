@@ -81,3 +81,60 @@ body {
 .button:hover {
   background-color: #894d17;
 }
+
+.header_dawn {
+  position: relative;
+}
+
+.header_title {
+  color: #D67E35;
+  font-family: 'Tinos', serif;  
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  margin-top: 222px;
+  margin-bottom: 12px;
+}
+
+.header_suptitle {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header_suptitle:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 61px;
+  background-color: #fff;
+  top: 127px;
+  left: 56px;
+}
+
+.header_suptitle:before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 61px;
+  background-color: #fff;
+  top: 127px;
+  left: 308px;
+}
+
+.header_button {
+  background-color: #FF7400;
+  padding: 14px 27px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  transition: background-color 0.2s linear;
+}
+
+.header_button:hover {
+  background-color: #894d17;
+}
