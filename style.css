@@ -373,11 +373,16 @@ body {
   font-size: 16px;
   font-weight: 700;
   box-shadow: 5px 5px 10px 0px #00000040;
+  transition: background-color 0.2s linear;
+}
 
+.menu_btn:hover {
+  background-color: #FF7400;
 }
 
 .menu_button {
   margin-top: 20px;
+  
 }
 
 .prise_image {
@@ -408,7 +413,7 @@ body {
 .recom {
   width: 101px;
   height: 18px;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 13px; 
   top: 7px;
