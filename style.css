@@ -429,3 +429,91 @@ body {
   left: 0;  
   background-color: #D67E34;
 }
+
+.comment {
+  background-color: #E5E5E5;
+  padding-top: 104px;
+  padding-bottom: 139px;
+}
+
+.comment_text {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.comment_image {
+  text-align: center;
+}
+
+.comment_type {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+
+.comment_name {
+  padding-top: 9px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.galery_title {
+  font-family: 'Tinos', serif; 
+  font-size: 54px;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+.galery_title span {
+  color: #D67E34;
+}
+
+.galery_content {
+  display: flex;
+  justify-content: center;
+}
+
+.galary_left {
+  margin-right: 20px;
+}
+
+.galary_down, .galary_up {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.cook_title {
+  font-family: 'Tinos', serif; 
+  font-size: 54px;
+  text-align: center;
+  margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.cook_title span {
+  color: #D67E34;
+}
+
+.cook_content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cook {
+  padding-bottom: 100px;
+}
+
+.footer {
+  background-image: url(image/foot.png);
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
