@@ -395,6 +395,11 @@ body {
   position: relative;
 }
 
+.menu_img {
+  width: 225px;
+  Height: 225px;
+}
+
 .prise420 {
   position: absolute;
   bottom: 34px;
@@ -516,4 +521,134 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
+}
+
+@media (max-width: 1400px) {
+
+  .galery_content {
+    display: block;
+  }
+
+  .img_gal, .galary_up, .galary_down {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img_gal {
+    margin-bottom: 20px;
+  }
+
+  .galary_left {
+    margin-right: 0;
+  }
+}
+
+.burger_menu {
+  display: none;
+}
+
+@media (max-width: 1300px) {
+
+  .menu_itams {
+    display: block;
+  }
+
+  .menu_itam {
+    margin: 20px auto;
+    width: 600px;
+  }
+
+  .header_title {
+    position: static;
+  }
+
+  .header_suptitle::before, .header_suptitle::after {
+    content: none;
+  }
+
+  .cook_content {
+    display: block;
+  }
+
+  .cook_content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .block_holder {
+    display: block;
+  }
+
+  .left_title,  .left_text{
+    text-align: center;
+  }
+
+  .right_botton {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .history_images {
+    display: none;
+  }
+
+  .history_title, .history_desc, .history_number {
+    width: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .burger_menu {
+    display: block;
+  }
+
+  .nav, .cart, .phone, .btn {
+    display: none;
+  }
+
+  .header_line {
+    justify-content: space-between;
+  }
+
+  .burgers_image {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px){
+
+  .card_holder {
+    display: block;
+  }
+
+  .card {
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .history_holder {
+    display: block;
+  }
+
+  .menu_itam{
+    width: auto;
+  }
+
+  .higt {
+    display: none;
+  }
+
+  .container {
+    margin: auto 40px;
+  }
+
+  .number_item {
+    font-size: 23px;
+  }
 }
